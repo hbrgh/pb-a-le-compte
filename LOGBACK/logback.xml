@@ -11,7 +11,7 @@
   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
     <!-- use the previously created timestamp to create a uniquely
          named log file -->
-    <file>${PB_A_CONDEMINOV_LOG_DIR}/${APPNAME}___${bySecond}.log</file>
+    <file>${PB_A_LE_COMPTE_LOG_DIR}/${APPNAME}___${bySecond}.log</file>
     <encoder>
       <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{0} - %msg%n</pattern>
     </encoder>
